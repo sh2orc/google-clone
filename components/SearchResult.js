@@ -1,5 +1,6 @@
 import React from 'react';
 import Parser from 'html-react-parser';
+import PagenationButtons from "./PagenationButtons";
 
 function SearchResult({results}) {
     return (
@@ -17,6 +18,7 @@ function SearchResult({results}) {
                 </div>
                 ))}
 
+            <PagenationButtons/>
         </div>
     );
 }
